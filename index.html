@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+
+<html lang="pt-br"> <!-- Idioma -->
+
+	<head> <!-- Cabeçalho -->
+		
+		<!-- Exibe a página HTML corretamente -->
+		<meta charset="utf-8"> 
+
+		<!-- Estilo CSS -->
+		<link rel="stylesheet" type="text/css" href="css/estilo.css">
+
+		<title>Chalé Hotel</title>
+
+	</head>
+
+	<body> <!-- CORPO DO HTML -->
+
+		<div id="container"> <!-- CONTAINER -->
+						
+			<div id="topo"> <!-- TOPO -->
+				
+				<div id="area-logo"> <!-- LOGO -->				
+					<h1 class="logo"> <!-- TÍTULO LOGO-->
+
+						<!-- LINK LOGO-->
+						<a href=""> 
+							Chalé Hotel 
+						</a>
+
+					</h1> <!-- FIM TÍTULO LOGO-->
+				</div> <!-- FIM LOGO --> 
+
+				<div id="area-menu"> <!-- AREA MENU -->
+					<div id="conteudo-menu"> <!-- CONTEUDO MENU-->		
+
+						<div id="menu-locais"> <!-- MENU LOCAIS-->		
+							
+							<!-- LOCAIS-->
+							<span class="locais"> 
+								Rio de Janeiro - São Paulo - Belo Horizonte								
+							</span>
+
+							<!-- LINK RESERVA-->
+							<a class="reserva" href="">Reservar</a>
+							<div style="clear: both;"></div>
+
+						</div> <!-- FIM MENU LOCAIS-->
+
+						<div id="menu"> <!-- MENU-->
+
+							<ul id="navegacao"> <!-- NAVEGAÇÃO - Lista não ordenada -->
+								<!-- Lista de itens com links -->
+								<li><a href="index.html">       Home        </a></li>
+								<li><a href="historia.html">    História    </a></li>
+								<li><a href="imprensa.html">    Imprensa    </a></li>
+								<li><a href="gastronomia.html"> Gastronomia </a></li>
+								<li><a href="contato.html">     Contato     </a></li>
+							</ul> <!-- FIM NAVEGAÇÃO - Lista não ordenada -->
+
+							<!-- IMAGEM: DEPOIMENTO -->
+							<img class="depoimento" src="img/depoimento.png"> 
+
+						</div> <!-- FIM MENU -->
+
+					</div> <!-- FIM CONTEUDO MENU-->			
+				</div> <!-- FIM AREA MENU -->			
+
+			</div> <!-- FIM TOPO -->
+
+			<div id="area-principal"> <!-- ÁREA PRINCIPAL -->
+				<div class="conteudo"> <!-- CONTEÚDO 1 -->
+
+					<h2> <!-- TÍTULO AREA PRINCIPAL -->
+						Chalé Hotel	
+					</h2>
+
+					<p> <!-- PARÁGRAFO 1 -->
+						Utilização de <i>layout</i> liquido: adaptando várias resoluções. 
+						<br />
+						Criando div id container. 
+						<br />
+						Quando estiver na pasta CSS e for inserir imagem da pasta IMG, deve utilizar ../ para subir o nível, ou seja, ir para a pasta principal para depois entrar na pasta imagem.
+						<br>
+						Utilizando o * no CSS, você pode configurar toda a página, limpando. 
+						<br />
+						No CSS, quando utiliza a tag body, pode definir a fonte, a cor de fundo, inserir imagem de fundo. 
+						<br />
+						No CSS, quando utilizar tag não precisa de nenhum outro simbolo antes, já quando for se ferir a um id do html, deve colocar # antes e no caso de class do html, deve inserir o . (ponto)
+					</p>
+
+					<p> <!-- PARÁGRAFO 2 -->
+						 <strong>CSS:</strong> configuranção do topo: <br>
+						- Cor de fundo; <br>
+						- Altura: utilizando a unidade 'em', pois caso aumento o tamanho do texto, essa altura será proporcional ao tamanho do texto; <br>
+						- <i>min-height</i> define o tamaho mínimo do topo.
+						<br>
+						O menu sobrepõe a imagem da logo.
+					</p>
+
+					<p> <!-- PARÁGRAFO 3 -->
+						Na criação da area de conteúdo e lateral, foi utitlizado % no width, pois o <i>layout</i> criado é líquido.
+					</p>
+
+				</div> <!-- FIM CONTEÚDO 1 -->
+			</div> <!-- FIM ÁREA PRINCIPAL -->
+
+			<div id="area-lateral"> <!-- ÁREA LATERAL -->
+				<div class="conteudo"> <!-- CONTEÚDO 2 -->
+					<ul id="beneficios"> <!-- Lista não ordenada - benefícios -->					
+						<li> <!-- Lista de itens 1 --> 	 						
+							<a href=""> <!-- Links -->								
+								<img src="img/apartamento.jpg" width="150" alt="Apartamento"> <!-- Imagem -->
+								<h3>Apartamento</h3> <!-- Título -->
+								<p> <!-- Parágrafo 4 -->
+									Criamos uma lista não ordenada, dentro dela uma lista de item e foi inserido link com imagem, título e parágrafo.
+								</p>
+							</a> 
+						</li>
+						<li> <!-- Lista de itens 2 --> 							
+							<a href=""> <!-- Links -->								
+								<img src="img/restaurante.jpg" width="150" alt="Restaurante"> <!-- Imagem -->
+								<h3>Restaurante</h3> <!-- Título -->
+								<p> <!-- Parágrafo 4 -->
+									Criamos uma lista não ordenada, dentro dela uma lista de item e foi inserido link com imagem, título e parágrafo.
+								</p>
+							</a> 
+						</li>
+						<li> <!-- Lista de itens 3 -->							
+							<a href=""> <!-- Links -->								
+								<img src="img/piscina.jpg" width="150" alt="Piscina"> <!-- Imagem -->
+								<h3>Piscina</h3> <!-- Título -->
+								<p> <!-- Parágrafo 4 -->
+									Criamos uma lista não ordenada, dentro dela uma lista de item e foi inserido link com imagem, título e parágrafo.
+								</p>
+							</a> 
+						</li>
+					</ul> <!-- Fim Lista não ordenada - benefícios -->
+				</div> <!-- FIM CONTEÚDO 2 -->
+			</div> <!-- FIM ÁREA LATERAL -->
+
+			<div id="rodape"> <!-- RODAPÉ -->
+				<span>
+					&copy; Copyright 2000-2020 Chalé Hotel <br>
+					Por: Juliane Maran
+				</span>
+			</div> <!-- FIM RODAPÉ -->
+
+		</div> <!-- FIM CONTAINER -->
+
+	</body> <!-- FIM CORPO DO HTML -->
+</html>
